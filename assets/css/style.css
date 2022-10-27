@@ -28,6 +28,9 @@ body{
     "data"
     "info"
     "botoes";
+    background-image: url(../img/BackgroundCasamento3.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 #identificacao{
@@ -127,8 +130,8 @@ strong{
 }
 
 .botoes__icone{
-    background-color: #9CBE99;
-    color: #D5F4D4;
+    background-color: #8EA676;
+    color: #EFEFED;
     border-radius: 100%;
     border: none;
     width: 2em;
