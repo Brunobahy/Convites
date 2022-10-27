@@ -1,0 +1,119 @@
+:root{
+    --font-nomes: 'Great Vibes', cursive;
+    --font-comum: 'Roboto', sans-serif;
+    --cor-comum:#8C8E8B;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: var(--font-comum);
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    color: #8C8E8B;
+}
+
+body{
+    border:solid 1px gold;
+    width: calc(100vw - 20px);
+    height: calc(100vh - 20px);
+    margin: 10px;
+    display: grid;
+    grid-template-areas:
+    "nomes"
+    "data"
+    "botoes";
+}
+
+#identificacao{
+
+    grid-area: nomes;
+    width: 80%;
+    display: block;
+    margin: 1em auto;
+    
+}
+
+.identificacao__nomes{
+    font-family: var(--font-nomes);
+    font-size: 3em;
+    font-weight: 100;
+}
+
+strong{
+    display: block;
+    font-family: serif;
+    text-transform: uppercase;
+    font-size: 0.5em;
+    line-height: 0.5em;
+}
+
+.identificacao__convite{
+    display: block;
+    font-size: .8em;
+    margin: 1em auto;
+    width: 80%;
+}
+
+/* Data do casamento*/
+
+#data{
+    grid-area: data;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.data__lado{
+    border-bottom: solid var(--cor-comum) 2px;
+    border-top: solid var(--cor-comum) 2px;
+}
+
+.data__mes-e-ano{
+    font-size: 2em;
+    margin: 0 0.5em ;
+}
+
+.data__dia{
+    font-family: var(--font-comum);
+    line-height: normal;
+    font-size: 1em;
+}
+
+
+
+/* lista de botoes*/
+
+#botoes{
+    grid-area: botoes;
+
+}
+
+.botoes__lista{
+    margin-top: 1.5em;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.botoes__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1em;
+}
+
+.botoes__icone{
+    background-color: #9CBE99;
+    color: #D5F4D4;
+    border-radius: 100%;
+    border: none;
+    width: 2em;
+    height: 2em;
+    font-size: 1.2em;
+}
