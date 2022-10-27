@@ -33,6 +33,13 @@ body{
     background-size: cover;
 }
 
+.container{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+/*Nomes*/
 #identificacao{
 
     grid-area: nomes;
@@ -127,6 +134,7 @@ strong{
     flex-direction: column;
     align-items: center;
     font-size: 1em;
+    width: 30%;
 }
 
 .botoes__icone{
