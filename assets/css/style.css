@@ -44,8 +44,7 @@ body{
 
     grid-area: nomes;
     display: block;
-    margin: 1em auto;
-    padding-top: 10vh;
+  
 }
 
 .identificacao__nomes{
@@ -104,6 +103,7 @@ strong{
 
 .data__mes-e-ano{
     font-size: 2em;
+    margin: 0 0.5em ;
 }
 
 .data__dia{
@@ -148,10 +148,13 @@ strong{
 
 
 @media screen and (max-width:768px) {
-  
+    #identificacao{
+        margin: 1em auto;
+        padding-top: 10vh;
+    }
     
 }
 
 @media screen and (max-width:480px) {
- 
+   
 }
