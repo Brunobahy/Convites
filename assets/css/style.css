@@ -26,16 +26,16 @@ body{
     grid-template-areas:
     "nomes"
     "data"
+    "info"
     "botoes";
 }
 
 #identificacao{
 
     grid-area: nomes;
-    width: 80%;
     display: block;
     margin: 1em auto;
-    
+    padding-top: 10vh;
 }
 
 .identificacao__nomes{
@@ -59,6 +59,24 @@ strong{
     width: 80%;
 }
 
+/*info*/
+
+#informacoes{
+    grid-area: info;
+    
+}
+
+.informacoes__local{
+    font-size: 1.2em;
+}
+
+.informacoes__endereço{
+    font-size: 0.9em;
+    margin: 0 2em 1em;
+}
+
+
+
 /* Data do casamento*/
 
 #data{
@@ -66,7 +84,7 @@ strong{
     display: flex;
     justify-content: center;
     align-items: center;
-
+    font-size: 1.2em;
 }
 
 .data__lado{
@@ -116,4 +134,14 @@ strong{
     width: 2em;
     height: 2em;
     font-size: 1.2em;
+}
+
+
+@media screen and (max-width:768px) {
+  
+    
+}
+
+@media screen and (max-width:480px) {
+ 
 }
