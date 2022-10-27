@@ -49,8 +49,12 @@ body{
 
 .identificacao__nomes{
     font-family: var(--font-nomes);
-    font-size: 3em;
+    font-size: 5em;
     font-weight: 100;
+}
+
+.identificacao__nomes strong{
+    padding-left: 90px;
 }
 
 strong{
