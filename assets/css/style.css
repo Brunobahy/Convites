@@ -41,7 +41,6 @@ body{
 
 /*Nomes*/
 #identificacao{
-
     grid-area: nomes;
     display: block;
   
@@ -153,7 +152,7 @@ strong{
 @media screen and (max-width:768px) {
     #identificacao{
         margin: 1em auto;
-        padding-top: 10vh;
+        padding-top: 7vh;
     }
     
 }
