@@ -15,6 +15,9 @@ html{
     width: 100vw;
     text-align: center;
     color: #3c3c3c;
+    background-image: url(../img/BackgroundCasamento3.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 body{
@@ -28,9 +31,6 @@ body{
     "data"
     "info"
     "botoes";
-    background-image: url(../img/BackgroundCasamento3.jpg);
-    background-position: center;
-    background-size: cover;
 }
 
 .container{
@@ -139,13 +139,17 @@ strong{
 }
 
 .botoes__icone{
+
+    align-items: center;
     background-color: #8EA676;
-    color: #EFEFED;
     border-radius: 100%;
     border: none;
-    width: 2em;
-    height: 2em;
+    color: #EFEFED;
+    display: flex;
     font-size: 1.2em;
+    height: 2em;
+    justify-content: center;
+    width: 2em;
 }
 
 
