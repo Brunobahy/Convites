@@ -43,7 +43,7 @@ body{
 #identificacao{
     grid-area: nomes;
     display: block;
-  
+    margin: 1rem auto; 
 }
 
 .identificacao__nomes{
@@ -152,6 +152,26 @@ strong{
     width: 2em;
 }
 
+@media screen and (min-width: 1020px) {
+    #identificacao{
+        font-size: 1.5em;
+        margin-top: 1em;
+    }
+    .identificacao__nomes strong{
+        padding: 0;
+        display: initial;
+        font-family: inherit;
+        text-transform: uppercase;
+        font-size: 0.8em;
+        line-height: normal;
+    }
+    #data{
+        font-size: 1.5em;
+    }
+    .botoes__lista{
+        justify-content: center;
+    }
+}
 
 @media screen and (max-width:768px) {
     #identificacao{
@@ -161,6 +181,17 @@ strong{
     
 }
 
-@media screen and (max-width:480px) {
-   
+@media screen and (max-width:375px) {
+    #identificacao{
+        margin: 1em auto;
+        padding: 0;
+
+    }
+    .identificacao__nomes{
+        font-size: 4em;
+    }
+    #data {
+        font-size: 1em;
+        margin-bottom: 1em;
+    }
 }
