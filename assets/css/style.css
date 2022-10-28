@@ -153,24 +153,20 @@ strong{
 }
 
 @media screen and (min-width: 1020px) {
-    #identificacao{
-        font-size: 1.5em;
-        margin-top: 1em;
-    }
-    .identificacao__nomes strong{
-        padding: 0;
-        display: initial;
-        font-family: inherit;
-        text-transform: uppercase;
-        font-size: 0.8em;
-        line-height: normal;
-    }
-    #data{
-        font-size: 1.5em;
-    }
-    .botoes__lista{
-        justify-content: center;
-    }
+   html{
+    width: 414px;
+    height: 100vh;
+    background-repeat: no-repeat;
+    display: block;
+    margin: 0 auto;
+    font-size: .9em;
+   }
+   body{
+    width: auto;
+    height: 100vh;
+    margin: 0;
+    border: none;
+   }
 }
 
 @media screen and (max-width:768px) {
